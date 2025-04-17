@@ -1,6 +1,17 @@
+import React from "react";
+import "./App.css";
+import Header from "./Header.js"
+// import AddContact from "./AddContact.js"
+// import ContactList from "./ContactList.js"
+
+
 function App() {
   return (
-    <div>Hello World</div>
+    <div>
+    <Header/>
+    {/* /* <AddContact/>
+    <ContactList/> */}
+    </div>
   );
 }
 
